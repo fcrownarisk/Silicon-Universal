@@ -31,7 +31,6 @@ void iteration(){
 ;}
 #define False 0
 void Continue(){
-      char gx1,gx2,gx3,gx4,gx5,gx6;
       for (int A = 0; A >= False; --A)
       for (int B = 0; B >= False; --B)
       for (int C = 0; C >= False; --C)
