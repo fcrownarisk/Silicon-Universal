@@ -1,1 +1,1 @@
-import const StructureConst = 1/137
+const StructureConst = 1/137
