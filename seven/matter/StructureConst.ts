@@ -1,1 +1,1 @@
-const StructureConst = 1/137
+export const StructureConst = 1/137
