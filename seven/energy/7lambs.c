@@ -1,4 +1,3 @@
-
 void abcdef(){
 char a = "x1y1z1";
 char b = "x2y2z2";
