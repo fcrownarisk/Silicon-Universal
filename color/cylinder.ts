@@ -5,25 +5,25 @@ import './Green.js'
 import './Blue.js'
 import './anti.js'
 void function CylinderXY(){
-  const element1=
+    const element1 =
            [[1, 0, 0, 0],
             [0, 1, 0, 0],
             [0, 0, 1, 0],
             [0, 0, 0, 1]]
-
- const element2=
+ 
+    const element2 =
            [[0, 1, 0, 0],
             [0, 0, 1, 0],
             [0, 0, 0, 1],
             [1, 0, 0, 0]]
 
- const element3=
+    const element3 =
            [[0, 0, 0, 1],
             [1, 0, 0, 0],
             [0, 1, 0, 0],
             [0, 0, 1, 0]]
 
-  const  element4 =
+    const element4 =
            [[0, 0, 1, 0],
             [0, 0, 0, 1],
             [1, 0, 0, 0],
@@ -128,10 +128,10 @@ void function CylinderXYZ(){
             [0, 1, 0, 0],
             [0, 0, 1, 0]]
 }
-void function Cylinder(X:number,Y:number,Z:number){
+void function Cylinder(X:String,Y:String,Z:String){
     const CylinderXY = 'Cylinder.X+ Cylinder.Y'
     const CylinderYZ = 'Cylinder.Y+ Cylinder.Z'
     const CylinderZX = 'Cylinder.Z + Cylinder.X'
     const CylinderXYZ = 'Cylinder.X + Cylinder.Y + Cylinder.Z'
-    return [CylinderXY,CylinderYZ,CylinderZX,CylinderXYZ,X,Y,Z]
+    return [CylinderXY,CylinderYZ,CylinderZX,CylinderXYZ]
 }
