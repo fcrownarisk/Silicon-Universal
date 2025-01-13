@@ -4,10 +4,10 @@ import './color/Red'
 import './color/anti'
 void function SpherePoint(r: number, theta: number, fai: number):
     { x: number, y: number, z: number,T:number} {
-    let x = r * Math.sin(theta) * Math.cos(fai)
-    let y = r * Math.sin(theta) * Math.sin(fai)
-    let z = r * Math.cos(fai)
-    let T = r * Math.sin(theta)
+    let x = r * Math.cos(fai)
+    let y = r * Math.sin(theta)
+    let z = r * Math.sin(theta) * Math.cos(fai)
+    let T = r * Math.sin(theta) * Math.sin(fai)
     return { x, y, z, T}
 }
 void function xyz(){
