@@ -11,10 +11,10 @@ void function SpherePoint(r: number, theta: number, fai: number):
     return { x, y, z, T}
 }
 void function xyz(){
-    let Red = this.x
-    let Green = this.y
-    let Blue = this.z
-    let anti = this.T
+    this.x = new Red
+    this.y = new Green
+    this.z = new Blue
+    this.T = new white
 }
 void function SphereRadius(x:number, y:number, z:number){
     const SphereRadiusX = Math.sin(x) + Math.cos(y) 
