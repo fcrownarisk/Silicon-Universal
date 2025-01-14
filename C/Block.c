@@ -19,7 +19,7 @@ void CreateBlock(int row, int cols, int depth){
       for(h = d+e+f;h > a+b+c; h--)
            return depth;
 }
-void EmptyBlock(CreateBlock,DestroyBlock){
+void EmptyBlock(CreateBlock,DestroyeBlock){
      char i,j,k,l,m,n,o,p,q;
      char Block2[3][3] = {{i,j,k},{l,m,n},{o,p,q}};
      char i = "!", j = "@", k = "#",
@@ -35,11 +35,11 @@ void EmptyBlock(CreateBlock,DestroyBlock){
           continue;
      for(o = 0;o <= 00;o)
      for(p = 0;o && q;p++ || p--)
-     for(q = 0;q >= DestroyBlock;q--)     
+     for(q = 0;q >= DestroyeBlock;q--)     
           break;
 }
 #define NULL 0
-void DestroyBlock(int row, int cols,int depth){
+void DestroyeBlock(int row, int cols,int depth){
      char r,s,t,u,v,w,x,y,z;
      char Block3[3][3] = {{r,s,t},{u,v,w},{x,y,z}};
      for(r = "1-1";r >>=1; r--)
