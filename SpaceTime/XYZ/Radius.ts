@@ -1,3 +1,4 @@
+import "Time"
 import "x1y1z1.ts"
 import "x2y2z2.ts"
 import "x3y3z3.ts"
