@@ -1,3 +1,4 @@
+import "XYZ"
 import "t1t2.ts"
 import "t3t4.ts"
 import "t5t6.ts"
