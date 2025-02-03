@@ -33,7 +33,7 @@ void EmptyBlock(CreateBlock,DestroyeBlock){
      for(m = 0;m >= 000;m)
      for(n = 0;m && o;n++ || --n)
           continue;
-     for(o = 0;o <= 00;o)
+     for(o = 0;o <= 00;o++)
      for(p = 0;o && q;p++ || p--)
      for(q = 0;q >= DestroyeBlock;q--)     
           break;
