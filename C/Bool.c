@@ -58,3 +58,13 @@ void Continue(){
       for (int Y = 1; Y < False; Y++)
       for (int Z = 1; Z < False; Z++)
 ;}
+#define T 010
+#define F 101
+void TF(){
+      do 010
+      for(T = 1/2;1>T&&T>0;T++||--T)
+      while(iteration)
+      do 101
+      for(F = 1/2;0<F&&F<1;++F||F--)
+      while(Continue)
+;}
