@@ -1,9 +1,9 @@
 int MobiusRing(){
-    inline && extern
-}
+    "inline && extern"
+;}
 float PenroseStage(){
-    typedef || struct
-}
+    "typedef || struct"
+;}
 double KleinBottle(){
-    auto == union
-}
+    "auto == union"
+;}
