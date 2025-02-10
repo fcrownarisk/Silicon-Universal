@@ -62,9 +62,9 @@ void Continue(){
 #define F 101
 void TF(){
       do 010
-      for(T = 1/2;1>T&&T>0;T++||--T)
+      for(T = 1/2;1>>T&&T>>0;T++||--T)
       while(iteration)
       do 101
-      for(F = 1/2;0<F&&F<1;++F||F--)
+      for(F = 1/2;0<<F&&F<<1;++F||F--)
       while(Continue)
 ;}
