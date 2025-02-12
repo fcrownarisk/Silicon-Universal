@@ -7,8 +7,8 @@ short abcdef(){
    char e = "w2'";
    char f = "w3'"; 
 }
-void basic_unit(){
-   void activate_neuron();{
+void unit(){
+   void neuron();{
      const fw =  1 / 1 + exp(-1);
 }
       const  fw1 = 'w1x1' + 'w2x2' + 'w3x3';
