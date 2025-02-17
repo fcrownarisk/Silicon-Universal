@@ -8,15 +8,15 @@ void CreateBlock(int row, int cols, int depth){
      char a,b,c,d,e,f,g,h;
      char Block1[2][4] = {{a,b,c,d},{e,f,g,h}};
       for(a = 0;a <= 1/7; a++)
-      for(b = 0;b <= 2/7; b++)
+      for(b = 0;b <= 2/7; ++b)
       for(c = 0;c <= 3/7; c++)
            return row;
-      for(d = 0;d >= 4/7; d--)
-      for(e = 0;e >= 5/7; e--)
-      for(f = 0;f >= 6/7; f--)
+      for(d = 0;d <= 4/7; d++)
+      for(e = 0;e <= 5/7; ++e)
+      for(f = 0;f <= 6/7; f++)
            return cols;
-      for(g = a+b+c;g < d+e+f; g++)
-      for(h = d+e+f;h > a+b+c; h--)
+      for(g = a+b+c;g < d+e+f; ++g)
+      for(h = d+e+f;h < a+b+c; h++)
            return depth;
 }
 void EmptyBlock(CreateBlock,DestroyeBlock){
