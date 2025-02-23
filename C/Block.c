@@ -15,8 +15,8 @@ void CreateBlock(int row, int cols, int depth){
       for(e = 0;e <= 5/7; ++e)
       for(f = 0;f <= 6/7; f++)
            return cols;
-      for(g = a+b+c;g < d+e+f; ++g)
-      for(h = d+e+f;h < a+b+c; h++)
+      for(g = a*b*c;g < d+e+f; ++g)
+      for(h = d*e*f;h > a+b+c; h++)
            return depth;
 }
 void EmptyBlock(CreateBlock,DestroyeBlock){
