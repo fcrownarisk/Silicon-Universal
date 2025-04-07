@@ -1,2 +1,2 @@
-using '7element.ts'
-using '7lambs.c'
+using <7element.ts>
+using <7lambs.c>
